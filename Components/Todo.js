@@ -5,7 +5,7 @@ const Todo = (props) => {
     return(
         <View>
             <Text style={[styles.item]}>
-                {props.name}
+                {props.item}
             </Text>
         </View>
     )
