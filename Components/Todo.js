@@ -7,6 +7,7 @@ const Todo = (props) => {
             <Text style={[styles.item]}>
                 {props.item}
             </Text>
+            <Button title={'Usuń'} color={'red'} onPress={() => props.delete(props.item)} />
         </View>
     )
 }
